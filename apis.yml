@@ -1,19 +1,49 @@
 aid: rocketable
 name: Rocketable
-description: Rocketable is a company surfaced as a portfolio company of bloomberg-beta and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Rocketable acquires profitable SaaS products and infuses them with AI,
+  operating a portfolio of software businesses that are run, improved, and grown by
+  AI agents. Backed by Y Combinator, True Ventures, Bloomberg Beta, and INDIE.vc, the
+  San Francisco company buys established SaaS products generating at least $500K in
+  annual revenue and works toward support that resolves problems in seconds and features
+  and fixes that ship in minutes or hours instead of quarters. The public site runs
+  two intake flows — apply to join the team, and submit a SaaS product to be acquired —
+  plus a newsletter on automating software businesses with AI agents. No public API
+  or developer surface is published.
 url: https://raw.githubusercontent.com/api-evangelist/rocketable/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - bloomberg-beta
+x-investors:
+- Y Combinator
+- True Ventures
+- Bloomberg Beta
+- INDIE.vc
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://www.rocketable.com/Logo80Blk.png
 tags:
 - Company
+- SaaS
+- Artificial Intelligence
+- AI Agents
+- Software Acquisition
+- Portfolio
+- Venture Backed
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +51,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/rocketable-domain-security.yml
 - type: Website
-  url: http://rocketable.com/
+  url: https://www.rocketable.com/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
